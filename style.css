@@ -68,8 +68,8 @@ html {
       background-size: cover;
       background-repeat: no-repeat;
       width: 100%;
-      height:620%;
-      padding: 1em 1em 2em 1em;
+      min-height: 100%;
+      padding: 1em 1em 4em 1em;
       font-family: 'Open Sans', sans-serif;
   }
 
@@ -116,6 +116,8 @@ html {
 span {
     color: #2dc77a;
 }*/
+
+
 .updateContainer {
     text-align: center;
 }
@@ -175,8 +177,10 @@ span {
     height: 80vh;
     margin: 3em auto;
     border-radius: 45px;
-    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    box-shadow: 10px 10px 15px rgb(39 39 39);
 }
+
+
 .iphone-head {
     border: 2px solid #000000;
     width: 30vw;
@@ -203,6 +207,7 @@ span {
     border-radius: 33px;
     padding: 0 .5em;
 }
+
 .time {
     color: #ffffff;
     margin-top: -15px;
@@ -219,6 +224,7 @@ span {
 }
 
 /********** skils grid line 1 **********/
+
 .grid-container {
     padding: 0 .5em;
 }
@@ -232,6 +238,7 @@ span {
 /********** SKills **********/
 
 /********** skills names **********/
+
 .html, .css, .javascript, .jquery , .firebase{
     color: #ffffff;
     font-size: 4vw;
@@ -239,6 +246,7 @@ span {
 
 
 /********** skils grid line 2 **********/
+
 .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -258,6 +266,7 @@ hr {
 
 
 /********** project **********/
+
 .project-header-container {
     margin-top: 6em;
     text-align: center;
@@ -271,6 +280,9 @@ hr {
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
 }
+
+
+
 
 
 /* canada cities */
@@ -384,7 +396,7 @@ hr {
     border-radius: 10px;
     transition: transform .5s;
 }
-.item-3 .survey-form-image:hovr {
+.item-3 .survey-form-image:hoer {
     transform: scale(1.1); 
 }
 /* survey form end */
@@ -558,7 +570,7 @@ hr {
     text-align: center;
 }
 .contact p {
-    color: #000000;
+    color: #ffffff;
     background-color: #000000;
     display: inline-block;
     font-size: 1.2em;
