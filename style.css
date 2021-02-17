@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.intro-bg {
+    width: 100%;
+    height: 50vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0 .7em;
+}
+.myImage {
+    width: 50%;
+    height: 40%;
+    background: url(./image/my\ portfolio\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.intro-bg p {
+    color:#000000;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Noto Sans JP', sans-serif;   
+}
+
+
+
+/* show only on ipad and desktop */
+  /* ---- stats.js ---- *
+  .nameContainer { 
+    background: #000000; 
+    position: absolute;
+    width: 120px; 
+    padding: 2em 0;
+    color: #4bffa5;
+    font-size: .8em; 
+    text-align:center; 
+    line-height: 25px; 
+    font-family: Helvetica, Arial, sans-serif; 
+    border-radius: 0 5px 5px 0; 
+  }
+  /* show only on ipad and desktop end */
+  
+  body {
+      background: #949494;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height:620%;
+      padding: 1em 1em 2em 1em;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  
+
+/*.Intro{
+    color:#000000;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Noto Sans JP', sans-serif;
+    /*margin-bottom: 1em;*
+    margin-top: 1em;
+}
+.name {
+    font-size: 5vw;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.intro {
+    margin-top: 2.5em;
+}*/
+
+
+
+
+
+
+
+/* auto typing *
+.pen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.text {
+  text-align: center;
+  font-size:6.5vw;
+  font-family: 'Mansalva', cursive;
+  padding: 1em 0;
+}
+*/
+
+/*
+span {
+    color: #2dc77a;
+}*/
+.updateContainer {
+    text-align: center;
+}
+.updateContainer .updateHeader {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0 1.3em;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000000;
+    margin-top: 5em
+}
+.updateContainer .updateText {
+    color: #000000;
+    padding: 4em 0 2em 0;
+    font-size: 19px;
+}
+.updateContainer a {
+    padding: .6em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    background: #ffffff;
+    color: #1386f8;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+.updateContainer a:hover {
+    background: #1386f8;
+    color: #000000;
+    transition: all 1s;
+}
+.recentProjectsContainer {
+    margin-top: 6em;
+    text-align: center;
+}
+.recentProjectsContainer p {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0 1.3em;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000000;
+}
+  
+
+
+
+
+/***** skills *****/
+
+.skills-container {
+    border: 10px solid #000000;
+    width: 70vw;
+    height: 80vh;
+    margin: 3em auto;
+    border-radius: 45px;
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+}
+.iphone-head {
+    border: 2px solid #000000;
+    width: 30vw;
+    height: 4vh;
+    margin: 0 auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #000000;
+}
+.front-speaker {
+    border: 2px solid #1a1a1a;
+    text-align: center;
+    border-radius: 2px;
+    width: 30px;
+    margin: .5em auto;
+}
+.background-img {
+    background: url('https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 33px;
+    padding: 0 .5em;
+}
+.time {
+    color: #ffffff;
+    margin-top: -15px;
+    font-size: 3vw;
+    text-align: left;
+    width: 40px;
+    margin-left: .5em;
+    padding-left: .5em;
+}
+.signal-battery {
+   text-align: right;
+   margin-top: -15px;
+   padding-right: .5em;
+}
+
+/********** skils grid line 1 **********/
+.grid-container {
+    padding: 0 .5em;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+/********** SKills **********/
+
+/********** skills names **********/
+.html, .css, .javascript, .jquery , .firebase{
+    color: #ffffff;
+    font-size: 4vw;
+}
+
+
+/********** skils grid line 2 **********/
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/********** skils grid line 1 **********/
+
+/***** skills end *****/
+
+
+hr {
+    margin-top: -18px;
+}
+
+
+
+/********** project **********/
+.project-header-container {
+    margin-top: 6em;
+    text-align: center;
+}
+.project-header-container p{
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0 1.3em;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000000;
+}
+
+
+/* canada cities */
+.item-1 {
+    width: 100%;
+    height: 29vh;
+    margin: 5em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgba(75, 255, 165, 0.651);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-1 .parallex{
+    float: left;
+    font-size: 4.5vw;
+    color: #000000;
+    /*margin-top: 2em;*/
+    padding: 2.3em 1.5em;
+}
+.item-1 .parallex-image {
+    background: url('./image/Popular\ canadian\ cities\ image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    border-radius: 10px;
+    transform: rotate(10deg);
+    transition: transform .5s;
+}
+.item-1 .parallex-image:hovr {
+    transform: scale(1.1); 
+}
+/* canada cities */
+
+
+/* Random Quote Generator end */
+.item-2 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgba(75, 255, 165, 0.651);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.item-2 .random-quote-generator{
+    float: left;
+    font-size: 4.5vw;
+    color: #000000;
+    padding: 1.8em 1em 1.8em 1.5em;
+}
+.item-2 .random-quote-generator-image {
+    background: url('./image/Random\ Quote\ Generator\ image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 38%;
+    height: 20vh;
+    float: left;
+    margin-left: 1.5rem;
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-2 .random-quote-generator-image:hovr {
+    transform: scale(1.1); 
+}
+/* Random Quote Generator end */
+
+
+/* survey form */
+.item-3 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgba(75, 255, 165, 0.651);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-3 .survey-form{
+    float: left;
+    font-size: 4.5vw;
+    color: #000000;
+    /*margin-top: 2em;*/
+    padding: 2.3em 2em;
+}
+.item-3 .survey-form-image {
+    background: url('./image/survey\ form.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 42%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-3 .survey-form-image:hovr {
+    transform: scale(1.1); 
+}
+/* survey form end */
+
+
+/* hex color changer */
+.item-4 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgba(75, 255, 165, 0.651);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-4 .hex-color-changer{
+    float: left;
+    font-size: 4.5vw;
+    color: #000000;
+    padding: 1.8em 1em;
+}
+.item-4 .hex-color-changer-image {
+    background: url('./image/Hex\ Change\ Background\ Color.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 20vh;
+    float: left;
+    margin-left: 1.5rem;
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-4 .hex-color-changer-image:hoer {
+    transform: scale(1.1); 
+}
+/* hex color changer end */
+
+
+
+/* tribute page */
+
+.item-5 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgba(75, 255, 165, 0.651);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-5 .tribute-page{
+    float: left;
+    font-size: 4.5vw;
+    color: #000000;
+    /*margin-top: 2em;*/
+    padding: 2.3em 1.5em;
+}
+.item-5 .tribute-page-image {
+    background: url('./image/Michael\ jackson\ _\ Tribute\ page.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    border-radius: 10px;
+    transform: rotate(10deg);
+    transition: transform .5s;
+}
+.item-5 .tribute-page-image:hovr {
+    transform: scale(1.1); 
+}
+
+/* tribute page end */
+
+
+
+/* background color changer */
+
+.item-6 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgba(75, 255, 165, 0.651);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-6 .background-color-changer{
+    float: left;
+    font-size: 4.5vw;
+    color: #000000;
+    padding: 1.8em 1em;
+}
+.item-6 .background-color-changer-image {
+    background: url('./image/Backround\ Color\ Changer.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 20vh;
+    float: left;
+    margin-left: 1.5rem;
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-6 .background-color-changer-image:hovr {
+    transform: scale(1.1); 
+}
+
+/* background color changer end */
+
+
+
+/* Animal's gallery */
+
+.item-7 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgba(75, 255, 165, 0.651);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-7 .animal-gallery{
+    float: left;
+    font-size: 4.5vw;
+    color: #000000;
+    /*margin-top: 2em;*/
+    padding: 2.3em 1.5em;
+}
+.item-7 .animal-gallery-image {
+    background: url('./image/animal\ gallery.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    border-radius: 10px;
+    transform: rotate(10deg);
+    transition: transform .5s;
+}
+.item-7 .animal-gallery-image:hovr {
+    transform: scale(1.1); 
+}
+/* Amimals gallery */ 
+
+
+/* Contact zone */
+.contact {
+    margin-top: 7em;
+    text-align: center;
+}
+.contact p {
+    color: #000000;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0 1.3em;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000000;
+}
+
+.contacts {
+    color: #000000;
+    text-align: center;
+    margin: 4em auto 1em auto;
+    font-size: 4vw;
+}
+.twitter , .github, .codePen, .linkedIn{
+    margin: 1.7em 0;
+}.contacts a {
+    text-decoration: none;
+    color: #000000;
+}
+/* contact zone end */
+
+/* copy right */
+.copyright-container{
+    color: #000000;
+    text-align: center;
+    margin-top: 4em;
+}
+
+
+
+span {
+    color: #2dc77a;
+}
+
+
+
+
+/*
+@media screen and (max-width: 459px) {
+    .item {
+        width: 20rem;
+        height: 150px;
+        margin: 5em auto;
+        padding-top: 10px;
+        background: #fd0000;
+        text-align: center;
+        color: #ffffff;
+        
+      }
+}
+  
+*/
+@media screen and (max-width: 760px) {
+    .nameContainer {
+        display: none;
+    }
+}
