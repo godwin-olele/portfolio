@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
 
 
 
@@ -17,31 +20,40 @@ html {
 }
 
 
-
 .intro-bg {
     width: 100%;
-    height: 50vh;
-    background-color: #ffffff;
-    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 400px;
+    border-radius: 30% 70% 0% 100% / 0% 0% 100% 100%   ;
+    background: #49bc71;
+    box-shadow:  29px -29px 41px #1d4b2d,
+                 -29px 29px 41px #75ffb5;
     padding: 0 .7em;
+    padding: 1.5em;
+    
 }
 .myImage {
     width: 50%;
     height: 40%;
-    background: url(./image/my\ portfolio\ img.jpg);
+    background: url('https://images.pexels.com/photos/1006227/pexels-photo-1006227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0 auto;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 47% 53% 0% 100% / 0% 0% 100% 100% ;
+    shape-outside:circle();
 }
 
 .intro-bg p {
-    color:#000000;
     text-align: center;
-    font-size: 5vw;
-    font-family: 'Noto Sans JP', sans-serif;   
+    font-size: 8.5vw;
+   font-family: 'Amaranth', sans-serif;
+    color: #252525;
+    margin: 6em auto;
 }
 
 
@@ -63,14 +75,15 @@ html {
   /* show only on ipad and desktop end */
   
   body {
-      background: #949494;
+      background: #ffffff;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       width: 100%;
       min-height: 100%;
-      padding: 1em 1em 4em 1em;
+      padding: 2em 1em 4em 1em;
       font-family: 'Open Sans', sans-serif;
+      
   }
 
   
@@ -120,6 +133,8 @@ span {
 
 .updateContainer {
     text-align: center;
+    margin-top: 23em;
+    
 }
 .updateContainer .updateHeader {
     color: #ffffff;
@@ -129,31 +144,33 @@ span {
     padding: 0 1.3em;
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
-    margin-top: 5em
+    margin-top: 5em;
+    border-radius: 10px;
 }
 .updateContainer .updateText {
     color: #000000;
-    padding: 4em 0 2em 0;
-    font-size: 19px;
+    padding: 2.5em 0 2em 0;
+    font-size: 7.3vw;
 }
 .updateContainer a {
     padding: .6em 1.5em;
     text-align: center;
     text-decoration: none;
-    background: #ffffff;
-    color: #1386f8;
+    background: #49bc71;
+    color: #ffffff;
     font-weight: bold;
     border-radius: 7px;
     border: none;
 }
 .updateContainer a:hover {
-    background: #1386f8;
+    background: #288d4c;
     color: #000000;
     transition: all 1s;
 }
 .recentProjectsContainer {
-    margin-top: 6em;
+    margin-top: 10em;
     text-align: center;
+   
 }
 .recentProjectsContainer p {
     color: #ffffff;
@@ -163,6 +180,7 @@ span {
     padding: 0 1.3em;
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
+    border-radius: 10px;
 }
   
 
@@ -175,9 +193,9 @@ span {
     border: 10px solid #000000;
     width: 70vw;
     height: 80vh;
-    margin: 3em auto;
+    margin: 6em auto;
     border-radius: 45px;
-    box-shadow: 10px 10px 15px rgb(39 39 39);
+    box-shadow: 10px 15px 30px rgb(39 39 39);
 }
 
 
@@ -268,7 +286,7 @@ hr {
 /********** project **********/
 
 .project-header-container {
-    margin-top: 6em;
+    margin-top: 8em;
     text-align: center;
 }
 .project-header-container p{
@@ -279,6 +297,7 @@ hr {
     padding: 0 1.3em;
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 
@@ -291,7 +310,7 @@ hr {
     height: 29vh;
     margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgba(75, 255, 165, 0.651);
+    background: #49bc71;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -330,7 +349,7 @@ hr {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgba(75, 255, 165, 0.651);
+    background: #49bc71;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -369,7 +388,7 @@ hr {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgba(75, 255, 165, 0.651);
+    background: #49bc71;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -408,7 +427,7 @@ hr {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgba(75, 255, 165, 0.651);
+    background: #49bc71;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -448,7 +467,7 @@ hr {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgba(75, 255, 165, 0.651);
+    background: #49bc71;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -490,7 +509,7 @@ hr {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgba(75, 255, 165, 0.651);
+    background: #49bc71;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -531,7 +550,7 @@ hr {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgba(75, 255, 165, 0.651);
+    background: #49bc71;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -577,6 +596,7 @@ hr {
     padding: 0 1.3em;
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 .contacts {
@@ -603,7 +623,7 @@ hr {
 
 
 span {
-    color: #2dc77a;
+    color: #49bc71;
 }
 
 
@@ -629,3 +649,5 @@ span {
         display: none;
     }
 }
+
+
