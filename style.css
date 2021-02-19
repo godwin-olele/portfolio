@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 
 
 
@@ -256,6 +259,7 @@ span {
 .html, .css, .javascript, .jquery , .firebase{
     color: #ffffff;
     font-size: 4vw;
+    font-family: 'Lobster', cursive;
 }
 
 
@@ -747,11 +751,11 @@ span {
 
 
 .skills-container {
-    border: 10px solid #000000;
-    width: 70vw;
+    border: 15px solid #000000;
+    width: 55vw;
     height: 80vh;
     margin: 6em auto;
-    border-radius: 45px;
+    border-radius: 60px;
     box-shadow: 10px 15px 30px rgb(39 39 39);
 }
 
@@ -759,17 +763,17 @@ span {
 .iphone-head {
     border: 2px solid #000000;
     width: 30vw;
-    height: 4vh;
+    height: 3.5vh;
     margin: 0 auto;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     background: #000000;
 }
 .front-speaker {
     border: 2px solid #1a1a1a;
     text-align: center;
     border-radius: 2px;
-    width: 30px;
+    width: 50px;
     margin: .5em auto;
 }
 .background-img {
@@ -779,29 +783,29 @@ span {
     background-repeat: no-repeat;
     height: 100%;
     margin: 0 auto;
-    border-radius: 33px;
+    border-radius: 42px;
     padding: 0 .5em;
 }
 
 .time {
     color: #ffffff;
-    margin-top: -15px;
-    font-size: 3vw;
+    margin-top: -22px;
+    font-size: 2vw;
     text-align: left;
     width: 40px;
-    margin-left: .5em;
-    padding-left: .5em;
+    margin-left: .8em;
+    padding-left: 0em;
 }
 .signal-battery {
    text-align: right;
-   margin-top: -15px;
-   padding-right: .5em;
+   margin-top: -22px;
+   padding-right: 1em;
 }
 
 /********** skils grid line 1 **********/
 
 .grid-container {
-    padding: 0 .5em;
+    padding: 0 0;
 }
 .grid {
     display: grid;
@@ -816,7 +820,8 @@ span {
 
 .html, .css, .javascript, .jquery , .firebase{
     color: #ffffff;
-    font-size: 4vw;
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
 }
 
 
@@ -835,7 +840,7 @@ span {
 
 
 hr {
-    margin-top: -18px;
+    margin-top: -25px;
 }
 
 
