@@ -7,6 +7,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
 
 
 * {
@@ -37,15 +39,16 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     max-width: 100%;
+    overflow: hidden;
 }
 .overlay {
     position: relative;
+    overflow: hidden;
     height: 100vh;
     max-width: 100%;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.80);
-   /* padding: 1em 3em 1em 3em;*/
 }
 
 
@@ -117,51 +120,29 @@ li a:hover {
     float: right;
 }
 
-.intro-bg {
-    width: 100%;
-    height: 400px;
-    background: #eb8d01;
-    padding: 0 .7em;
-    /*padding: 1.5em;*/
-    padding-top: 2em;
-    position:relative;
-    background-size: cover;
-    background-position:  center;
-    background-repeat: no-repeat;
-    background-image: url('https://images.pexels.com/photos/4287397/pexels-photo-4287397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    font-family: 'Roboto', sans-serif;
-    display: none;
-}
 .myImage {
-    width: 50%;
-    height: 22vh;
+    width: 100px;
+    height: 100px;
     background: url('https://images.pexels.com/photos/1006227/pexels-photo-1006227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    right: 0;
-    border-radius: 30% 70% 0% 100% / 38% 42% 58% 62% ;
-    display: none;
+    border-radius: 50% ;
+    margin: 10em auto 0 auto;
 }
-
+.intro-bg {
+    padding: 1em;
+}
 .intro-bg p {
+    line-height: 1.3em;
     text-align: center;
     font-size: 8vw;
-    font-family: 'Amaranth', sans-serif;
+    /*font-family: 'DotGothic16', sans-serif;*/
+    font-family: 'Barlow', sans-serif;
     color: #ffffff;
-    padding: 1em 0;
+    margin-top: 1em;
 }
 
-.profile-bg {
-    border-radius: 30% 70% 66% 34% / 38% 33% 67% 62% ;
-    background: #eb8d01;
-    text-align: center;
-    position: relative;
-    top: 10em;
-    display: none;
-}
-  
 
 
 
