@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
 
 
 * {
@@ -49,16 +49,23 @@ body {
 }
 
 
+
 .navbar {
-    background: #ffffff;
-    padding: 1em;
+    background: #000000;
+    padding: .5em;
 }
 
 .header-logo {
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
     font-size: 1.2em;
+    border-radius: 50%;
+    background: #288d4c;
+    width: 2.5em;
+    padding: .5em 0;
+    font-family: 'Miltonian Tattoo', cursive;
 }
 
 
@@ -139,13 +146,11 @@ li a:hover {
 }
 
 .intro-bg p {
-   /*text-align: center;*/
-   font-size: 8vw;
-   font-family: 'Amaranth', sans-serif;
-    color: #3b3b3b;
-    /*margin: 6em auto;*/
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Amaranth', sans-serif;
+    color: #ffffff;
     padding: 1em 0;
-    display: none;
 }
 
 .profile-bg {
@@ -692,11 +697,12 @@ span {
     .mobile-menu, .mobile-menu-exit {
         display: none;
     }
+    
 
     .navbar .container {
         display: grid;
         grid-template-columns: 180px auto;
-        justify-content: unset;
+        justify-content: center;
     }
 
     .navbar nav {
