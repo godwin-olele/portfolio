@@ -69,12 +69,8 @@ body {
     background: linear-gradient(90deg, #288d4c 49%, rgb(0, 0, 0) 49%);
     width: 2.5em;
     padding: .5em 0;
-    /*-family: 'Miltonian Tattoo', cursive;*/
 }
-.header-logo:hover {
-    background: linear-gradient(90deg, rgba(228, 147, 34) 49%, rgba(204, 16, 16) 49%) ;
-    transition: all 5s;
-}
+
 
 
 .container {
@@ -97,7 +93,7 @@ body {
 nav {
     position: fixed;
     z-index: 999;
-    width: 66%;
+    width: 50%;
     right: 0;
     top: 0;
     background: #288d4c;
@@ -189,7 +185,7 @@ span {
     padding: 0 1.3em;
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
-    margin-top: 5em;
+    margin-top: 2.5em;
     border-radius: 50px;
     font-style: italic;
 }
@@ -219,10 +215,13 @@ span {
 
 
 /***** skills *****/
+#skills-zone {
+    text-align: center;
+}
 .recentProjectsContainer {
     margin-top: 10em;
     text-align: center;
-   
+    display: inline-block;
 }
 .recentProjectsContainer p {
     color: #ffffff;
@@ -327,14 +326,18 @@ span {
 
 
 /********** project **********/
+#project-zone {
+    text-align: center;
+}
 
 .project-full-container {
     padding: 0 1em;
+    margin-top: -5em;
 }
 
 .project-header-container {
-    margin-top: 8em;
-    text-align: center;
+    margin-top: 8em ;
+    display: inline-block;
 }
 .project-header-container p{
     color: #ffffff;
@@ -639,9 +642,12 @@ span {
 
 
 /* Contact zone */
+#contact-zone {
+    text-align: center;
+}
 .contact {
     margin-top: 7em;
-    text-align: center;
+    display: inline-block;
 }
 .contact p {
     color: #ffffff;
@@ -651,7 +657,7 @@ span {
     padding: 0 1.3em;
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
-    margin-top: 5em;
+    margin-top: 2.5em;
     border-radius: 50px;
     font-style: italic;
 }
@@ -661,7 +667,6 @@ span {
     text-align: center;
     margin: 4em auto 1em auto;
     font-size: 5vw;
-    text-align: justify;
 }
 .twitter , .github, .codePen, .linkedIn{
     margin: 1.7em 0;
