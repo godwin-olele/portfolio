@@ -848,8 +848,8 @@ li a:hover {
 .skills-container-ipad {
     color: #fff;
     border: 2px solid #fff;
-    width: 80%;
-    height: 80vh;
+    width:90%;
+    height: 100%;
     margin: 3em auto;
     font-size: 30px;
     padding: 1em;
@@ -867,12 +867,14 @@ li a:hover {
     
     border: 1px solid #fff;
     border-radius: 50%;
-    padding: 2em;
+    width: 250px;
+    height: 250px;
 }
 .css-zone {
     border: 1px solid #fff;
     border-radius: 50%;
-    padding: 2em;
+    width: 250px;
+    height: 250px;
 }
 
 /***** second block *****/
@@ -890,18 +892,20 @@ li a:hover {
     
     border: 1px solid #fff;
     border-radius: 50%;
-    padding: 2em;
+    width: 250px;
+    height: 250px;
 }
 .jquery-zone {
     border: 1px solid #fff;
     border-radius: 50%;
-    padding: 2em;
+    width: 250px;
+    height: 250px;
 }
 
 /***** third zone *****/
 
 .third-block {
-    border: 2px solid #49bc71;
+    border: 2px solid #ff0000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -913,18 +917,18 @@ li a:hover {
 .firebase-zone {
     display: flex;
     border: 1px solid #fff;
-    width: 150px;
-    height: 150px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 .github-zone {
     border: 1px solid #fff;
     border-radius: 50%;
     padding: 2em;
+    width: 250px;
+    height: 250px;
 }
 
-.third-block {
-    border: 2px solid #ff0000;
-}
    
 }
 
