@@ -65,7 +65,6 @@ window.onload = function() {
 
 
 
-
 /***** nav bar *****/
 
 const mobileBtn = document.getElementById('mobile-cta')
@@ -82,3 +81,5 @@ mobileBtnExit.addEventListener('click', () => {
   nav.classList.remove('menu-btn');
   
 })
+
+
