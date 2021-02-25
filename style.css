@@ -236,6 +236,7 @@ span {
 }
 
 /***** skills *****/
+
 .skills-container {
     border: 10px solid #000000;
     width: 70vw;
@@ -247,10 +248,10 @@ span {
 .iphone-head {
     border: 2px solid #000000;
     width: 30vw;
-    height: 4vh;
+    height: 30px;
     margin: 0 auto;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background: #000000;
 }
 .front-speaker {
@@ -305,7 +306,7 @@ span {
 .html, .css, .javascript, .jquery , .firebase{
     color: #ffffff;
     font-size: 4vw;
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -835,80 +836,52 @@ li a:hover {
 
 
 /***** skills *****/
-#skills-zone {
-    text-align: center;
-}
-.recentProjectsContainer {
-    margin-top: 17em;
-    text-align: center;
-    display: inline-block;
-}
-.recentProjectsContainer p {
-    color: #ffffff;
-    background-color: #000000;
-    display: inline-block;
-    font-size: 2.5em;
-    padding: 0 1.3em;
-    font-family: 'Poppins', sans-serif;
-    border: 2px solid #000000;
-    border-radius: 50px;
-    font-style: italic;
-}
-
-
-/***** skills *****/
 .skills-container {
-    border: 15px solid #000000;
-    width: 350px;
-    height:650px;
+    border: 10px solid #000000;
+    width: 70vw;
+    height: 500px;
     margin: 5em auto;
     border-radius: 45px;
-    box-shadow: 15px 35px 40px rgb(39 39 39);
+    box-shadow: 10px 15px 30px rgb(39 39 39);
+    display: none;
 }
 
-.iphone-head {
-    border: 2px solid #000000;
-    width: 150px;
-    height: 30px;
-    margin: 0 auto;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background: #000000;
+.skills-container-ipad {
+    color: #fff;
+    border: 2px solid #fff;
+    width: 80%;
+    height: 50vh;
+    margin: 3em auto;
+    font-size: 30px;
+    padding: 1em;
 }
-.front-speaker {
-    border: 2px solid #1a1a1a;
-    text-align: center;
-    border-radius: 2px;
-    width: 30px;
-    margin: .5em auto;
+.first-block {
+    border: 2px solid #49bc71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 1em;
+    justify-content: space-between;
+    
 }
-
-.background-img {
-    background: url('https://images.pexels.com/photos/4526933/pexels-photo-4526933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    margin: 0 auto;
-    border-radius: 33px;
-    padding: 0 .5em;
+.html-zone {
+    
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 2em;
 }
-
-.time {
-    color: #ffffff;
-    margin-top: -15px;
-    font-size: 3vw;
-    text-align: left;
-    width: 40px;
-    margin-left: .5em;
-    padding-left: .5em;
-}
-.signal-battery {
-   text-align: right;
-   margin-top: -15px;
-   padding-right: .5em;
+.css-zone {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 2em;
 }
 
+.second-block { 
+    border: 2px solid #fffb00;
+}
+.third-block {
+    border: 2px solid #ff0000;
+}
    
 }
 
