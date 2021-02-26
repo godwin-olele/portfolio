@@ -844,11 +844,30 @@ li a:hover {
     box-shadow: 10px 15px 30px rgb(39 39 39);
     display: none;
 }
+#skills-zone {
+    text-align: center;
+}
+.recentProjectsContainer {
+    margin-top: 15em;
+    text-align: center;
+    display: inline-block;
+}
+.recentProjectsContainer p {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 0 1.3em;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: italic;
+}
 
 .skills-container-ipad {
     border-radius: 20px;
-    background: rgb(40,141,76);
-    background: linear-gradient(90deg, rgba(40,141,76,1) 0%, rgba(0,0,0,1) 100%);
+    background: /*rgb(40,141,76)*/ #eb8d01;
+    background: #000000;
     color: #fff;
     width:80%;
     height: 100%;
@@ -871,7 +890,7 @@ li a:hover {
     height: 250px;
     border-radius: 50%;
     background: transparent;
-    box-shadow:  13px 13px 14px #0e2f1c,
+    box-shadow:  13px 13px 14px /*#0e2f1c*/ #eb8d01,
                  -13px -13px 14px #000000;
 
 }
@@ -937,7 +956,6 @@ li a:hover {
 }
 .firebase-zone {
     padding: 1.3em;
-    display: flex;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -961,6 +979,316 @@ li a:hover {
 .github-zone p {
     font-size: 1.1em;
  }
+
+
+ 
+/********** project **********/
+
+.project-header-container {
+    margin-top: 12em;
+    text-align: center;
+}
+.project-header-container p{
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0 1.3em;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 4vw;
+}
+
+
+
+/* canada cities */
+.item-1 {
+    width: 100%;
+    height: 29vh;
+    margin: 5em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-1 .parallex{
+    float: left;
+    font-size: 4.5vw;
+    color: #ffffff;
+    /*margin-top: 2em;*/
+    padding: 2.3em 1.5em;
+}
+.item-1 .parallex-image {
+    background: url('./image/Popular\ canadian\ cities\ image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    border-radius: 10px;
+    transform: rotate(10deg);
+    transition: transform .5s;
+}
+.item-1 .parallex-image:hovr {
+    transform: scale(1.1); 
+}
+/* canada cities */
+
+
+/* Random Quote Generator end */
+.item-2 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgb(40,141,76);
+    background: linear-gradient(90deg, #eb8d01 50%, rgba(0,0,0) 90%);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.item-2 .random-quote-generator{
+    float: left;
+    font-size: 4.5vw;
+    color: #ffffff;
+    padding: 1.8em 1em 1.8em 1.5em;
+}
+.item-2 .random-quote-generator-image {
+    background: url('./image/Random\ Quote\ Generator\ image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 38%;
+    height: 20vh;
+    float: left;
+    margin-left: 1.5rem;
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-2 .random-quote-generator-image:hovr {
+    transform: scale(1.1); 
+}
+/* Random Quote Generator end */
+
+
+/* survey form */
+.item-3 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-3 .survey-form{
+    float: left;
+    font-size: 4.5vw;
+    color: #ffffff;
+    /*margin-top: 2em;*/
+    padding: 2.3em 2em;
+}
+.item-3 .survey-form-image {
+    background: url('./image/survey\ form.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 42%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-3 .survey-form-image:hoer {
+    transform: scale(1.1); 
+}
+/* survey form end */
+
+
+/* hex color changer */
+.item-4 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgb(40,141,76);
+    background: linear-gradient(90deg, #eb8d01 50%, rgba(0,0,0) 90%);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-4 .hex-color-changer{
+    float: left;
+    font-size: 4.5vw;
+    color: #ffffff;
+    padding: 1.8em 1em;
+}
+.item-4 .hex-color-changer-image {
+    background: url('./image/Hex\ Change\ Background\ Color.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 20vh;
+    float: left;
+    margin-left: 1.5rem;
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-4 .hex-color-changer-image:hoer {
+    transform: scale(1.1); 
+}
+/* hex color changer end */
+
+
+
+/* tribute page */
+
+.item-5 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-5 .tribute-page{
+    float: left;
+    font-size: 4.5vw;
+    color: #ffffff;
+    /*margin-top: 2em;*/
+    padding: 2.3em 1.5em;
+}
+.item-5 .tribute-page-image {
+    background: url('./image/Michael\ jackson\ _\ Tribute\ page.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    border-radius: 10px;
+    transform: rotate(10deg);
+    transition: transform .5s;
+}
+.item-5 .tribute-page-image:hovr {
+    transform: scale(1.1); 
+}
+
+/* tribute page end */
+
+
+
+/* background color changer */
+
+.item-6 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgb(40,141,76);
+    background: linear-gradient(90deg, #eb8d01 50%, rgba(0,0,0) 90%);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-6 .background-color-changer{
+    float: left;
+    font-size: 4.5vw;
+    color: #ffffff;
+    padding: 1.8em 1em;
+}
+.item-6 .background-color-changer-image {
+    background: url('./image/Backround\ Color\ Changer.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 36%;
+    height: 20vh;
+    float: left;
+    margin-left: 1.5rem;
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    transform: rotate(10deg);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.item-6 .background-color-changer-image:hovr {
+    transform: scale(1.1); 
+}
+
+/* background color changer end */
+
+
+
+/* Animal's gallery */
+
+.item-7 {
+    width: 100%;
+    height: 29vh;
+    margin: 2em auto 0 auto;
+    padding: 1.4em 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-7 .animal-gallery{
+    float: left;
+    font-size: 4.5vw;
+    color: #ffffff;
+    /*margin-top: 2em;*/
+    padding: 2.3em 1.5em;
+}
+.item-7 .animal-gallery-image {
+    background: url('./image/animal\ gallery.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+    float: left;
+    /*margin-left: 3em;*/
+    box-shadow: 0 15px 25px rgb(39, 39, 39);
+    border-radius: 10px;
+    transform: rotate(10deg);
+    transition: transform .5s;
+}
+.item-7 .animal-gallery-image:hovr {
+    transform: scale(1.1); 
+}
+/* Amimals gallery */ 
+
+
+
 
    
 }
