@@ -124,7 +124,7 @@ li a:hover {
 .myImage {
     width: 120px;
     height: 120px;
-    background: url('./image/new\ img\ 1.jpg');
+    background: url('./image/new_img_1-removebg-preview.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,6 +215,18 @@ span {
 
 
 /***** skills *****/
+
+.skills-container-ipad {
+    border-radius: 20px;
+    background: #000000;
+    color: #fff;
+    width:80%;
+    height: 100%;
+    margin: 3em auto;
+    font-size: 30px;
+    padding: 1em;
+    display: none;
+}
 #skills-zone {
     text-align: center;
 }
@@ -361,8 +373,7 @@ span {
     height: 29vh;
     margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, rgba(40,141,76) 50%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -401,8 +412,7 @@ span {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(40,141,76);
-    background: linear-gradient(90deg, rgba(40,141,76) 50%, rgba(0,0,0) 90%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -441,8 +451,7 @@ span {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, rgba(40,141,76) 50%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -481,8 +490,7 @@ span {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(40,141,76);
-    background: linear-gradient(90deg, rgba(40,141,76) 50%, rgba(0,0,0) 90%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -522,8 +530,7 @@ span {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, rgba(40,141,76) 50%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -565,8 +572,7 @@ span {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(40,141,76);
-    background: linear-gradient(90deg, rgba(40,141,76) 50%, rgba(0,0,0) 90%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -607,8 +613,7 @@ span {
     height: 29vh;
     margin: 2em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, rgba(40,141,76) 50%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -686,7 +691,7 @@ span {
 
 
 span {
-    color: #49bc71;
+    color: #288d4c;
 }
 
 
@@ -695,75 +700,51 @@ span {
 
 @media only screen and (min-width: 768px) {
 
-    
-.navbar {
-    background: #000000;
-    padding: 1.3em;
-}
 
-.header-logo {
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 1.5em;
-    border-radius: 50%;
-    background: linear-gradient(90deg, #288d4c 49%, rgb(0, 0, 0) 49%);
-    width: 2.5em;
-    padding: .5em 0;
-}
-
-
-
-.container {
-    display: flex;
-    place-content: space-between;
-}
-.mobile-menu {
-    cursor: pointer;
-    width: 3em;
-}
-
-
- .menu-btn {
-    display: block;
-}
-.navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-}
-nav {
-    position: fixed;
-    z-index: 999;
-    width: 50%;
-    right: 0;
-    top: 0;
-    background: #288d4c;
-    height: 100vh;
-    padding: 1em;
+.mobile-menu, .mobile-menu-exit {
     display: none;
 }
 
-ul, .primary-nav {
-    margin-top: 5em;
-    list-style-type: none;
+.container {
+    display: grid;
+    grid-template-columns:  150px auto;place-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    background: #000000;
+}
+
+ul {
+    display: flex;
+}
+li {
+    padding: 0 1.5em;
 }
 li a {
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-    padding: .5em;
-    font-size: 2.3em;
-    text-align: right;
+    padding: 0 ;
 }
-li a:hover {
+
+a {
+    color: white;
+    font-size: 1em;
+    padding: .1em 5em;
+}
+.primary-nav {
+    margin: 0;
+}
+
+.current a {
+    color: #288d4c;
     font-weight: bold;
+    border-bottom: 2px solid rgb(54, 54, 54);
 }
-.mobile-menu-exit {
-    float: right;
-    width: 4em;
-}
+
 
 
 .myImage {
@@ -866,7 +847,6 @@ li a:hover {
 
 .skills-container-ipad {
     border-radius: 20px;
-    background: /*rgb(40,141,76)*/ #eb8d01;
     background: #000000;
     color: #fff;
     width:80%;
@@ -874,6 +854,7 @@ li a:hover {
     margin: 3em auto;
     font-size: 30px;
     padding: 1em;
+    display: block;
 }
 .first-block {
     display: flex;
@@ -890,8 +871,8 @@ li a:hover {
     height: 250px;
     border-radius: 50%;
     background: transparent;
-    box-shadow:  13px 13px 14px /*#0e2f1c*/ #eb8d01,
-                 -13px -13px 14px #000000;
+    box-shadow:  13px 13px 14px #0e2f1c,
+    -13px -13px 14px #000000;
 
 }
 .css-zone {
@@ -992,28 +973,27 @@ li a:hover {
     color: #ffffff;
     background-color: #000000;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 2.5em;
     padding: 0 1.3em;
     font-family: 'Poppins', sans-serif;
     border: 2px solid #000000;
-    border-radius: 10px;
-    font-size: 4vw;
+    border-radius: 50px;
+    font-style: italic;
 }
 
 
 
 /* canada cities */
 .item-1 {
-    width: 100%;
+    width: 90%;
     height: 29vh;
-    margin: 5em auto 0 auto;
+    margin: 8em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .item-1 .parallex{
     float: left;
@@ -1028,32 +1008,31 @@ li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
-    height: 20vh;
+    height: 100%;
     float: left;
+    margin-top: 1em;
     /*margin-left: 3em;*/
     box-shadow: 0 15px 25px rgb(39, 39, 39);
-    border-radius: 10px;
+    border-radius: 20px;
     transform: rotate(10deg);
     transition: transform .5s;
 }
-.item-1 .parallex-image:hovr {
-    transform: scale(1.1); 
-}
+
+
 /* canada cities */
 
 
 /* Random Quote Generator end */
 .item-2 {
-    width: 100%;
+    width: 90%;
     height: 29vh;
-    margin: 2em auto 0 auto;
+    margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(40,141,76);
-    background: linear-gradient(90deg, #eb8d01 50%, rgba(0,0,0) 90%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .item-2 .random-quote-generator{
@@ -1068,32 +1047,31 @@ li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 38%;
-    height: 20vh;
+    height: 100%;
     float: left;
-    margin-left: 1.5rem;
+    margin-left: 4rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
-    border-radius: 10px;
+    border-radius: 20px;
     transition: transform .5s;
-}
-.item-2 .random-quote-generator-image:hovr {
-    transform: scale(1.1); 
+    height: 100%;
+    margin-top: 1em;
 }
 /* Random Quote Generator end */
 
 
+
 /* survey form */
 .item-3 {
-    width: 100%;
+    width: 90%;
     height: 29vh;
-    margin: 2em auto 0 auto;
+    margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .item-3 .survey-form{
     float: left;
@@ -1108,32 +1086,29 @@ li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 42%;
-    height: 20vh;
+    height: 100%;
+    margin-top: 1em;
     float: left;
     /*margin-left: 3em;*/
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
-    border-radius: 10px;
+    border-radius: 20px;
     transition: transform .5s;
 }
-.item-3 .survey-form-image:hoer {
-    transform: scale(1.1); 
-}
-/* survey form end */
 
+/* survey form end */
 
 /* hex color changer */
 .item-4 {
-    width: 100%;
+    width: 90%;
     height: 29vh;
-    margin: 2em auto 0 auto;
+    margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(40,141,76);
-    background: linear-gradient(90deg, #eb8d01 50%, rgba(0,0,0) 90%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .item-4 .hex-color-changer{
     float: left;
@@ -1146,18 +1121,17 @@ li a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 36%;
-    height: 20vh;
+    width: 40%;
+    height: 100%;
+    margin-top: 1em;
     float: left;
-    margin-left: 1.5rem;
+    margin-left: 3rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
 }
-.item-4 .hex-color-changer-image:hoer {
-    transform: scale(1.1); 
-}
+
 /* hex color changer end */
 
 
@@ -1165,16 +1139,15 @@ li a:hover {
 /* tribute page */
 
 .item-5 {
-    width: 100%;
+    width: 90%;
     height: 29vh;
-    margin: 2em auto 0 auto;
+    margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    background:#288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .item-5 .tribute-page{
     float: left;
@@ -1188,17 +1161,15 @@ li a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 20vh;
+    width: 45%;
+    height: 100%;
+    margin-top: 1em;
     float: left;
     /*margin-left: 3em;*/
     box-shadow: 0 15px 25px rgb(39, 39, 39);
-    border-radius: 10px;
+    border-radius: 20px;
     transform: rotate(10deg);
     transition: transform .5s;
-}
-.item-5 .tribute-page-image:hovr {
-    transform: scale(1.1); 
 }
 
 /* tribute page end */
@@ -1208,16 +1179,15 @@ li a:hover {
 /* background color changer */
 
 .item-6 {
-    width: 100%;
+    width: 90%;
     height: 29vh;
-    margin: 2em auto 0 auto;
+    margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(40,141,76);
-    background: linear-gradient(90deg, #eb8d01 50%, rgba(0,0,0) 90%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .item-6 .background-color-changer{
     float: left;
@@ -1230,13 +1200,14 @@ li a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 36%;
-    height: 20vh;
+    width: 40%;
+    height: 100%;
     float: left;
-    margin-left: 1.5rem;
+    margin-top: 1em;
+    margin-left: 2rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
-    border-radius: 10px;
+    border-radius: 20px;
     transition: transform .5s;
 }
 .item-6 .background-color-changer-image:hovr {
@@ -1250,16 +1221,15 @@ li a:hover {
 /* Animal's gallery */
 
 .item-7 {
-    width: 100%;
+    width: 90%;
     height: 29vh;
-    margin: 2em auto 0 auto;
+    margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0) 8%, #eb8d01 50%);
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .item-7 .animal-gallery{
     float: left;
@@ -1274,19 +1244,46 @@ li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
-    height: 20vh;
+    height: 100%;
+    margin-top: 1em;
     float: left;
     /*margin-left: 3em;*/
     box-shadow: 0 15px 25px rgb(39, 39, 39);
-    border-radius: 10px;
+    border-radius: 20px;
     transform: rotate(10deg);
     transition: transform .5s;
 }
 .item-7 .animal-gallery-image:hovr {
     transform: scale(1.1); 
 }
-/* Amimals gallery */ 
+/* Amimals gallery */
 
+
+
+/* Contact zone */
+.contact {
+    margin-top: 13em;
+    text-align: center;
+}
+.contact p {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 0 1.3em;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: italic;
+}
+
+/* copy right */
+.copyright-container{
+    color: #ffffff;
+    text-align: center;
+    margin: 6em auto 1em auto;
+    font-size: 30px;
+}
 
 
 
@@ -1297,6 +1294,27 @@ li a:hover {
 @media only screen and (min-width: 1024px) {
 
     
+.skills-container-ipad {
+    border-radius: 20px;
+    background: #000000;
+    color: #fff;
+    width:700px;
+    height: 100%;
+    margin: 3em auto;
+    font-size: 30px;
+    padding: 1em;
+    display: block;
+}
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
 }
 
 
@@ -2084,7 +2102,7 @@ hr {
     height: 40vh;
     margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: #eb8d01;
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -2125,7 +2143,7 @@ hr {
     height: 40vh;
     margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: #eb8d01;
+    background:#288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -2168,7 +2186,7 @@ hr {
     height: 40vh;
     margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: #eb8d01;
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
@@ -2210,7 +2228,7 @@ hr {
     height: 40vh;
     margin: 5em auto 0 auto;
     padding: 1.4em 0;
-    background: #eb8d01;
+    background: #288d4c;
     text-align: center;
     color: #000000;
     cursor: pointer;
