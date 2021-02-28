@@ -67,7 +67,7 @@ window.onload = function() {
 
 
 
-/***** nav bar *****/
+// nav bar 
 
 const mobileBtn = document.getElementById('mobile-cta')
 
