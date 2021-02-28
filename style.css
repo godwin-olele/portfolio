@@ -1377,10 +1377,10 @@ nav a {
 }
 
 .header-grid-container {
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid green;
     border-right: none;
     border-top: none;
-    width: 5%;
+    width: 57%;
     height: 50%;
     margin-left: 1.6em;
     float: left;
@@ -1389,33 +1389,44 @@ nav a {
     top: 0;
 }
 .image-and-intro-container {
-    border: 2px solid #fff;
-    width: 80%;
-    height: 50%;
+    width: 90%;
+    height: 330px;
     float: left;
     position: absolute;
    /* margin: 15em 6em 0 6em;*/
+    left: 90px;
 }
 .image-grid {
-    border: 2px solid #fff;
-    width: 320px;
-    height: 350px;
-    /*margin: auto 0 auto 7em;*/
-    display: none;
+    width: 330px;
+    height: 330px;
+    float: left;
+    background: url('./image/IMG-20210119-WA0009.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 50px;
+    border: 2px solid green;
 }
 
-.intro-grid {
-    border: 2px solid #fff;
-    width: 500px;
+.intro-grid-big-screen-view {
+    border: 2px solid green;
+    width: 450px;
     height: 300px;
-    margin: auto 0 auto -14em;
-    display: none;
+    float: left;
+    margin-left: 3em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: .8em;
 }
 .third-grid {
-    border: 2px solid #fff;
-    width: 100px;
-    height: 350px;
-    display: none;
+    
+    width: 200px;
+    height: 330px;
+    float: left;
+    margin: auto 5em;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='200' height='330' preserveAspectRatio='none' viewBox='0 0 200 330'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1338%26quot%3b)' fill='none'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1339%26quot%3b)'%3e%3cpath d='M65 165L75 175L85 175L95 175M35 155L45 165L55 175L65 175M75 165L85 155M-5 165L5 165L15 165L25 155L35 155L45 155L55 165L65 165L75 165L85 165L95 165' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M92.5 165 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM92.5 175 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM62.5 175 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM82.5 155 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M25 175L35 165M-5 175L5 175L15 175L25 175L35 175' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M32.5 175 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM32.5 165 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M-5 155L5 155L15 155L25 145L35 145' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M32.5 145 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M145 195L155 185L165 185L175 185M65 185L75 195L85 195M45 185L55 195M105 185L115 195M-5 185L5 185L15 185L25 185L35 185L45 185L55 185L65 185L75 185L85 185L95 185L105 185L115 185L125 195L135 195L145 195L155 195L165 195' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M162.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM172.5 185 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM82.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM52.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM112.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M-5 145L5 145L15 145L25 135L35 135L45 135' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M42.5 135 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M-5 195L5 195' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M2.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M65 125L75 135L85 135L95 135L105 145L115 145M55 125L65 135L75 145L85 145L95 155M105 125L115 135L125 135L135 135L145 135M-5 135L5 135L15 135L25 125L35 125L45 125L55 125L65 125L75 125L85 125L95 125L105 125L115 125L125 125' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M122.5 125 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM112.5 145 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM92.5 155 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM142.5 135 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M115 205L125 215L135 215L145 215L155 215M85 205L95 215L105 215L115 215L125 225M65 205L75 215L85 215M165 205L175 205M-5 205L5 205L15 205L25 205L35 205L45 205L55 205L65 205L75 205L85 205L95 205L105 205L115 205L125 205L135 205L145 205L155 205L165 205L175 195' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M172.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM152.5 215 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM122.5 225 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM82.5 215 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM172.5 205 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M105 115L115 105L125 105M-5 125L5 125L15 125L25 115L35 115L45 115L55 115L65 115L75 115L85 115L95 115L105 115L115 115L125 115L135 115L145 115' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M142.5 115 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM122.5 105 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M-5 215L5 215L15 215L25 215' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M22.5 215 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M65 105L75 95M95 105L105 105M-5 115L5 115L15 115L25 105L35 105L45 105L55 105L65 105L75 105L85 105L95 105L105 95' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M102.5 95 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM72.5 95 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM102.5 105 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M-5 225L5 225L15 225L25 225L35 225' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M32.5 225 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M65 85L75 75M135 75L145 85L155 95L165 105L175 105M115 75L125 65L135 65L145 65L155 65L165 55M55 95L65 95M-5 105L5 105L15 105L25 95L35 95L45 95L55 95L65 85L75 85L85 85L95 75L105 75L115 75L125 75L135 75L145 75L155 85' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M152.5 85 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM72.5 75 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM172.5 105 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM162.5 55 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM62.5 95 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M85 235L95 245L105 245L115 245M25 235L35 245L45 245L55 245M145 235L155 245L165 245L175 245M5 235L15 245L25 245M-5 235L5 235L15 235L25 235L35 235L45 235L55 235L65 235L75 235L85 235L95 235L105 235L115 235L125 235L135 235L145 235L155 235L165 235L175 235' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M172.5 235 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM112.5 245 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM52.5 245 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM172.5 245 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM22.5 245 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M-5 95L5 95L15 95L25 85L35 85L45 85L55 85' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M52.5 85 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M65 265L75 275L85 285M55 265L65 255M35 255L45 255M-5 245L5 255L15 255L25 255L35 255L45 265L55 265L65 265L75 265L85 275L95 275L105 275L115 275' stroke='rgba(30%2c 217%2c 44%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M112.5 275 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM82.5 285 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM62.5 255 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM42.5 255 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(30%2c 217%2c 44%2c 1)'%3e%3c/path%3e%3cpath d='M125 55L135 45M25 75L35 65L45 65L55 55M75 65L85 65M115 55L125 45L135 35L145 35L155 35M-5 85L5 85L15 85L25 75L35 75L45 75L55 65L65 65L75 65L85 55L95 55L105 55L115 55L125 55L135 55L145 55' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='1.67'%3e%3c/path%3e%3cpath d='M142.5 55 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM132.5 45 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM52.5 55 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM82.5 65 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0zM152.5 35 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1338'%3e%3crect width='200' height='330' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cmask id='SvgjsMask1339'%3e%3crect width='200' height='330' fill='white'%3e%3c/rect%3e%3cpath d='M93.75 165 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM93.75 175 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM63.75 175 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM83.75 155 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M33.75 175 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM33.75 165 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M33.75 145 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M163.75 195 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM173.75 185 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM83.75 195 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM53.75 195 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM113.75 195 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M43.75 135 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M3.75 195 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M123.75 125 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM113.75 145 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM93.75 155 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM143.75 135 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M173.75 195 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM153.75 215 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM123.75 225 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM83.75 215 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM173.75 205 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M143.75 115 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM123.75 105 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M23.75 215 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M103.75 95 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM73.75 95 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM103.75 105 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M33.75 225 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M153.75 85 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM73.75 75 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM173.75 105 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM163.75 55 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM63.75 95 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M173.75 235 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM113.75 245 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM53.75 245 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM173.75 245 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM23.75 245 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M53.75 85 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M113.75 275 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM83.75 285 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM63.75 255 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM43.75 255 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3cpath d='M143.75 55 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM133.75 45 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM53.75 55 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM83.75 65 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0zM153.75 35 a1.25 1.25 0 1 0 2.5 0 a1.25 1.25 0 1 0 -2.5 0z' fill='black'%3e%3c/path%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-color: #288d4c;
 }
 
 
