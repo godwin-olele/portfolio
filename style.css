@@ -139,6 +139,29 @@ li a {
 }
 
 
+/***** About for small devices *****/
+.about {
+    border: 2px dotted rgb(17, 199, 17);
+    height: 30vh;
+    width: 90%;
+    margin: 0 auto;
+}
+.about p {
+    color: #fff;
+    text-align: center;
+}
+
+/***** disabled large screen intro on small devices ******/
+
+.intro-grid-big-screen-view {
+    border: 2px solid rgb(17, 199, 17);
+    width: 450px;
+    height: 330px;
+    float: left;
+    margin-left: 3em;
+    padding: 1em;
+    display: none;
+}
 
 
   
@@ -185,7 +208,7 @@ span {
 }
 .updateContainer .updateText {
     color: #ffffff;
-    padding: 3.5em 1.2em 2em 1.2em;
+   /* padding: 3.5em 1.2em 2em 1.2em;*/
     font-size: 23px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7em;
@@ -688,7 +711,7 @@ span {
 
 
 span {
-    color: #288d4c;
+    color: green;
 }
 
 
@@ -787,7 +810,7 @@ nav a {
 }
 .updateContainer .updateText {
     color: #ffffff;
-    padding: 2.5em 1.2em 2em 1.2em;
+    /*padding: 2.5em 1.2em 2em 1.2em;*/
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7em;
@@ -822,10 +845,10 @@ nav a {
     margin: 3em auto;
     font-size: 20px;
     padding: 1em;
-    border: 2px solid #fff;
+    /*border: 2px solid #fff;*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 10px;
+    grid-row-gap: 40px;
 }
 .skills-container {
     border: 10px solid #000000;
@@ -842,9 +865,8 @@ nav a {
 /***** project *****/
 
 .project-full-container {
-    width:60%;
+    width:85%;
     height: 100%;
-    border: 2px solid #fff;
     margin: 0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -856,34 +878,32 @@ nav a {
 .item-1 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .item-1 .parallex{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 2.3em 1.5em;
-    display: none;
 }
 .item-1 .parallex-image {
     background: url('./image/Popular\ canadian\ cities\ image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 100%;
+    width: 15vw;
+    height: 10vh;
     float: left;
-    margin-top: 1em;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
-    border-radius: 20px;
+    border-radius: 10px;
     transform: rotate(10deg);
     transition: transform .5s;
-    display: none;
 }
 
 
@@ -894,37 +914,33 @@ nav a {
 .item-2 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-2 .random-quote-generator{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 1.8em 1em 1.8em 1.5em;
-    display: none;
+
 }
 .item-2 .random-quote-generator-image {
     background: url('./image/Random\ Quote\ Generator\ image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 38%;
-    height: 100%;
+    width: 15vw;
+    height: 10vh;
     float: left;
-    margin-left: 4rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
-    border-radius: 20px;
+    border-radius: 10px;
     transition: transform .5s;
-    height: 100%;
-    margin-top: 1em;
-    display: none;
 }
 /* Random Quote Generator end */
 
@@ -934,34 +950,28 @@ nav a {
 .item-3 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 15px;
 }
 .item-3 .survey-form{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 2.3em 2em;
-    display: none;
 }
 .item-3 .survey-form-image {
     background: url('./image/survey\ form.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 42%;
-    height: 100%;
-    margin-top: 1em;
+    width: 15vw;
+    height: 10vh;
     float: left;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 20px;
     transition: transform .5s;
-    display: none;
 }
 
 /* survey form end */
@@ -970,35 +980,31 @@ nav a {
 .item-4 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item-4 .hex-color-changer{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 1.8em 1em;
-    display: none;
 }
 .item-4 .hex-color-changer-image {
     background: url('./image/Hex\ Change\ Background\ Color.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 100%;
-    margin-top: 1em;
+    width: 15vw;
+    height: 10vh;
     float: left;
-    margin-left: 3rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
-    display: none;
 }
 
 /* hex color changer end */
@@ -1010,34 +1016,31 @@ nav a {
 .item-5 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background:#288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item-5 .tribute-page{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 2.3em 1.5em;
-    display: none;
 }
 .item-5 .tribute-page-image {
     background: url('./image/Michael\ jackson\ _\ Tribute\ page.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 45%;
-    height: 100%;
-    margin-top: 1em;
+    width: 15vw;
+    height: 10vh;
     float: left;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     border-radius: 20px;
     transform: rotate(10deg);
     transition: transform .5s;
-    display: none;
 }
 
 /* tribute page end */
@@ -1049,35 +1052,31 @@ nav a {
 .item-6 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item-6 .background-color-changer{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 1.8em 1em;
-    display: none;
 }
 .item-6 .background-color-changer-image {
     background: url('./image/Backround\ Color\ Changer.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 100%;
+    width: 15vw;
+    height: 10vh;
     float: left;
-    margin-top: 1em;
-    margin-left: 2rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 20px;
     transition: transform .5s;
-    display: none;
 }
 
 /* background color changer end */
@@ -1089,34 +1088,31 @@ nav a {
 .item-7 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item-7 .animal-gallery{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 2.3em 1.5em;
-    display: none;
 }
 .item-7 .animal-gallery-image {
     background: url('./image/animal\ gallery.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 100%;
-    margin-top: 1em;
+    width: 15vw;
+    height: 10vh;
     float: left;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     border-radius: 20px;
     transform: rotate(10deg);
     transition: transform .5s;
-    display: none;
 }
 
 /* Amimals gallery */
@@ -1126,34 +1122,31 @@ nav a {
 .item-8 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item-8 .customer-data-log-form {
     float: left;
-    font-size: 4.5vw;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 1.8em 1em;
-    display: none;
 }
 .item-8 .customer-data-log-form-image {
     background: url('./image/Backround\ Color\ Changer.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 36%;
-    height: 20vh;
+    width: 15vw;
+    height: 10vh;
     float: left;
-    margin-left: 1.5rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
-    display: none;
 }
 .item-8 .customer-data-log-form-image:hover {
     transform: scale(1.1); 
@@ -1221,82 +1214,74 @@ nav a {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+
+    .recentProjectsContainer {
+        margin-top: 10em;
+        text-align: center;
+        display: inline-block;
+    }
+    .recentProjectsContainer h1 {
+        color: #ffffff;
+        background-color: #000000;
+        display: inline-block;
+        font-size: 1.5em;
+        padding: .3em 1.5em;
+        font-family: 'Poppins', sans-serif;
+        border-bottom: 2px solid #fff;
+        border-radius: 50px;
+        font-style: italic;
+    }
+
+    
     
 .updateContainer {
-    text-align: center;
-    padding: 1em;
+    padding: 5em 2em 3em 2em;
+    background:#288d4c;
+    width: 50vw;
+    height: 100%;
+    margin: 3em auto 0 auto;
+    border-radius: 10px;
 }
-.updateContainer .updateHeader {
-    color: rgb(17, 199, 17);
-    background-color: #000000;
-    display: inline-block;
-    font-size: 2em;
-    padding: 0 1.3em;
+#update-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.updateHeader {
+    color: #fff;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
     font-family: 'Poppins', sans-serif;
-    border: 2px dotted rgb(17, 199, 17);
+    background: transparent;
     margin-top: 4em;
     border-radius: 50px;
     font-style: italic;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
 }
 .updateContainer .updateText {
     color: #ffffff;
-   /* padding: 3.5em 1.2em 2em 1.2em;*/
-    padding-bottom: 4em;
-    font-size: 25px;
+    padding-bottom: 2.5em;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7em;
-    border: 2px dotted rgb(17, 199, 17);
-    width: 700px;
     margin: -1em auto 0 auto;
+    text-align: center;
 }
 .button-container {
     margin-top: -1.3em;
 }
 .updateContainer a {
     font-size: 1em;
-    padding: .5em 1em;
+    padding: .7em 1em;
     text-align: center;
     text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    border-radius: 3px;
+    color: #ffffff;
+    font-weight: lighter;
+    border-radius: 5px;
     border: none;
-    background: rgb(17, 199, 17);
-    border: 2px dotted rgb(17, 199, 17);
+    background: rgb(0, 0, 0);
 }
-/* Sweep To Right */
-.hvr-sweep-to-right {
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    transition-property: color;
-    transition-duration: 0.3s;
-  }
-  .hvr-sweep-to-right:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgb(17, 199, 17);
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
-    
-  }
-  .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
-    color: #000;
-  }
-  .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
-    transform: scaleX(1);
-  }
-
 
     body {
         background: #000000;
@@ -1413,6 +1398,7 @@ nav a {
     float: left;
     margin-left: 3em;
     padding: 1em;
+    display: block;
 }
 .intro-grid-big-screen-view p {
     font-size: 25px;
@@ -1427,6 +1413,14 @@ nav a {
     background: #000;
     font-weight: bold;
     border-radius: 5px;
+}
+/***** About for small devices *****/
+.about {
+    border: 2px dotted rgb(17, 199, 17);
+    height: 30vh;
+    width: 90%;
+    margin: 0 auto;
+    display: none;
 }
 
   /* Sweep To Bottom */
@@ -1504,11 +1498,23 @@ nav a {
 
 /***** project *****/
 
+.project-header h1 {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #fff;
+    border-radius: 50px;
+    font-style: italic;
+    margin-top: 4em;
+}
+
 .project-full-container {
     width:60%;
     height: 100%;
-    border: 2px solid #fff;
-    margin: 0 auto;
+    margin: 4em auto 0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
@@ -1520,34 +1526,32 @@ nav a {
 .item-1 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-   /* text-align: center;*/
-    color: #000000;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-1 .parallex{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 2.3em 1.5em;
-    display: none;
 }
 .item-1 .parallex-image {
     background: url('./image/Popular\ canadian\ cities\ image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 12vw;
     height: 20vh;
     float: left;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     border-radius: 10px;
     transform: rotate(10deg);
     transition: transform .5s;
-    display: none;
 }
 .item-1 .parallex-image:hover {
     transform: scale(1.1); 
@@ -1559,34 +1563,32 @@ nav a {
 .item-2 {
     width: 100%;
     height:100%;
-    padding: 1.4em 0;
+    padding: 1em;
     background: #288d4c;
-    color: #000000;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-2 .random-quote-generator{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 1.8em 1em 1.8em 1.5em;
-    display: none;
 }
 .item-2 .random-quote-generator-image {
     background: url('./image/Random\ Quote\ Generator\ image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 38%;
+    width: 12vw;
     height: 20vh;
     float: left;
-    margin-left: 1.5rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
-    display: none;
 }
 .item-2 .random-quote-generator-image:hover {
     transform: scale(1.1); 
@@ -1598,34 +1600,32 @@ nav a {
 .item-3 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-3 .survey-form{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 2.3em 2em;
-    display: none;
 }
 .item-3 .survey-form-image {
     background: url('./image/survey\ form.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 42%;
+    width: 12vw;
     height: 20vh;
     float: left;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
-    display: none;
 }
 .item-3 .survey-form-image:hover {
     transform: scale(1.1); 
@@ -1637,35 +1637,32 @@ nav a {
 .item-4 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-4 .hex-color-changer{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 1.8em 1em;
-    display: none;
 }
 .item-4 .hex-color-changer-image {
     background: url('./image/Hex\ Change\ Background\ Color.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 36%;
+    width: 12vw;
     height: 20vh;
     float: left;
-    margin-left: 1.5rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
-    display: none;
 }
 .item-4 .hex-color-changer-image:hover {
     transform: scale(1.1); 
@@ -1679,36 +1676,34 @@ nav a {
 .item-5 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-5 .tribute-page{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 2.3em 1.5em;
-    display: none;
 }
 .item-5 .tribute-page-image {
     background: url('./image/Michael\ jackson\ _\ Tribute\ page.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 12vw;
     height: 20vh;
     float: left;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     border-radius: 10px;
     transform: rotate(10deg);
     transition: transform .5s;
-    display: none;
 }
-.item-5 .tribute-page-image:hovr {
+.item-5 .tribute-page-image:hover {
     transform: scale(1.1); 
 }
 
@@ -1721,7 +1716,7 @@ nav a {
 .item-6 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
     text-align: center;
     color: #000000;
@@ -1730,25 +1725,21 @@ nav a {
 }
 .item-6 .background-color-changer{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 1.8em 1em;
-    display: none;
 }
 .item-6 .background-color-changer-image {
     background: url('./image/Backround\ Color\ Changer.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 36%;
+    width: 12vw;
     height: 20vh;
     float: left;
-    margin-left: 1.5rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
-    display: none;
 }
 .item-6 .background-color-changer-image:hover {
     transform: scale(1.1); 
@@ -1763,34 +1754,31 @@ nav a {
 .item-7 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item-7 .animal-gallery{
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    display: none;
-    padding: 2.3em 1.5em;
 }
 .item-7 .animal-gallery-image {
     background: url('./image/animal\ gallery.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 12vw;
     height: 20vh;
     float: left;
-    /*margin-left: 3em;*/
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     border-radius: 10px;
     transform: rotate(10deg);
     transition: transform .5s;
-    display: none;
 }
 .item-7 .animal-gallery-image:hover {
     transform: scale(1.1); 
@@ -1803,34 +1791,31 @@ nav a {
 .item-8 {
     width: 100%;
     height: 100%;
-    padding: 1.4em 0;
+    padding: 1em ;
     background: #288d4c;
-    text-align: center;
-    color: #000000;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item-8 .customer-data-log-form {
     float: left;
-    font-size: 4.5vw;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: 1.8em 1em;
-    display: none;
 }
 .item-8 .customer-data-log-form-image {
     background: url('./image/Backround\ Color\ Changer.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 36%;
+    width: 12vw;
     height: 20vh;
     float: left;
-    margin-left: 1.5rem;
     box-shadow: 0 15px 25px rgb(39, 39, 39);
     transform: rotate(10deg);
     border-radius: 10px;
     transition: transform .5s;
-    display: none;
 }
 .item-8 .customer-data-log-form-image:hover {
     transform: scale(1.1); 
