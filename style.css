@@ -670,21 +670,18 @@ span {
 #contact-zone {
     text-align: center;
 }
-.contact {
-    margin-top: 7em;
-    display: inline-block;
-}
-.contact p {
+
+.contact h1 {
     color: #ffffff;
     background-color: #000000;
     display: inline-block;
     font-size: 1.5em;
-    padding: 0 1.3em;
+    padding: .3em 1.5em;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid #000000;
-    margin-top: 2.5em;
+    border-bottom: 2px solid #fff;
     border-radius: 50px;
     font-style: italic;
+    margin-top: 4em;
 }
 
 .contacts {
@@ -768,74 +765,96 @@ nav a {
 
 
 .myImage {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background: url('./image/new\ img\ 1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50% ;
-    margin: 13em auto 0 auto;
+    margin: 15em auto 0 auto;
 }
 .intro-bg {
     padding: 1em;
 }
 .intro-bg p {
+    border: 2px solid #fff;
     line-height: 1.3em;
     text-align: center;
-    font-size: 8vw;
+    font-size:7vw;
     /*font-family: 'DotGothic16', sans-serif;*/
     font-family: 'Barlow', sans-serif;
     color: #ffffff;
-    margin-top: 1em;
+    margin: 2em auto 0 auto;
+    width: 80%;
 }
-
 
 
 .updateContainer {
-    text-align: center;
-    padding: 1em;
+    padding: 5em 2em 3em 2em;
+    background:#288d4c;
+    width: 70vw;
+    height: 100%;
+    margin: 3em auto 0 auto;
+    border-radius: 10px;
 }
-.updateContainer .updateHeader {
+#update-zone {
+    text-align: center;
+}
+.update-container h1 {
     color: #ffffff;
     background-color: #000000;
     display: inline-block;
-    font-size: 2.5em;
-    padding: 0 1.3em;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid #000000;
-    margin-top: 5em;
+    border-bottom: 2px solid #fff;
     border-radius: 50px;
     font-style: italic;
+    margin-top: 6em;
 }
 .updateContainer .updateText {
     color: #ffffff;
-    /*padding: 2.5em 1.2em 2em 1.2em;*/
-    font-size: 40px;
+    padding-bottom: 2.5em;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7em;
+    margin: -1em auto 0 auto;
+    text-align: center;
+}
+.button-container {
+    margin-top: -1.3em;
 }
 .updateContainer a {
-    padding: .6em 1.5em;
+    font-size: 1em;
+    padding: .7em 1em;
     text-align: center;
     text-decoration: none;
-    background: #288d4c;
-    font-size: 30px;
     color: #ffffff;
-    font-weight: bold;
-    border-radius: 7px;
+    font-weight: lighter;
+    border-radius: 5px;
     border: none;
-    background-image: linear-gradient(to right, #288d4c, #000000);
+    background: rgb(0, 0, 0);
 }
-.updateContainer a:hover {
-    background: #288d4c;
-    color: #ffffff;
-    transition: all 1s;
-}
-
 
 /***** skills *****/
 
+#skills-zone {
+    text-align: center;
+}
+
+.skills-header h1 {
+color: #ffffff;
+background-color: #000000;
+display: inline-block;
+font-size: 1.5em;
+padding: .3em 1.5em;
+font-family: 'Poppins', sans-serif;
+border-bottom: 2px solid #fff;
+border-radius: 50px;
+font-style: italic;
+margin-top: 7em;
+}
 .skills-container-ipad {
     border-radius: 20px;
     background: #000000;
@@ -864,10 +883,24 @@ nav a {
 
 /***** project *****/
 
+
+.project-header h1 {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #fff;
+    border-radius: 50px;
+    font-style: italic;
+    margin-top: 6em;
+}
+
 .project-full-container {
     width:85%;
     height: 100%;
-    margin: 0 auto;
+    margin: 4em auto 0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
@@ -1159,20 +1192,24 @@ nav a {
 
 
 /* Contact zone */
-.contact {
-    margin-top: 13em;
-    text-align: center;
-}
-.contact p {
+
+.contact h1 {
     color: #ffffff;
     background-color: #000000;
     display: inline-block;
-    font-size: 2.5em;
-    padding: 0 1.3em;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid #000000;
+    border-bottom: 2px solid #fff;
     border-radius: 50px;
     font-style: italic;
+    margin-top: 6em;
+}
+.contacts {
+    color: #ffffff;
+    text-align: center;
+    margin: 3em auto 1em auto;
+    font-size: 1.5rem;
 }
 
 /* copy right */
@@ -1180,7 +1217,7 @@ nav a {
     color: #ffffff;
     text-align: center;
     margin: 6em auto 1em auto;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 
@@ -1214,26 +1251,25 @@ nav a {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-
-    .recentProjectsContainer {
-        margin-top: 10em;
+    #skills-zone {
         text-align: center;
-        display: inline-block;
-    }
-    .recentProjectsContainer h1 {
-        color: #ffffff;
-        background-color: #000000;
-        display: inline-block;
-        font-size: 1.5em;
-        padding: .3em 1.5em;
-        font-family: 'Poppins', sans-serif;
-        border-bottom: 2px solid #fff;
-        border-radius: 50px;
-        font-style: italic;
     }
 
+.skills-header h1 {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #fff;
+    border-radius: 50px;
+    font-style: italic;
+    margin-top: 7em;
+}
+
     
-    
+    /***** update *****/
 .updateContainer {
     padding: 5em 2em 3em 2em;
     background:#288d4c;
@@ -1243,21 +1279,19 @@ nav a {
     border-radius: 10px;
 }
 #update-zone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
-.updateHeader {
-    color: #fff;
+.update-container h1 {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
     font-size: 1.5em;
     padding: .3em 1.5em;
     font-family: 'Poppins', sans-serif;
-    background: transparent;
-    margin-top: 4em;
+    border-bottom: 2px solid #fff;
     border-radius: 50px;
     font-style: italic;
-    border-bottom: 2px solid #fff;
-    display: inline-block;
+    margin-top: 6em;
 }
 .updateContainer .updateText {
     color: #ffffff;
@@ -1822,6 +1856,37 @@ nav a {
 }
 
 /* customer data log form end */
+
+
+/* Contact zone */
+
+.contact h1 {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #fff;
+    border-radius: 50px;
+    font-style: italic;
+    margin-top: 6em;
+}
+.contacts {
+    color: #ffffff;
+    text-align: center;
+    margin: 3em auto 1em auto;
+    font-size: 1.5rem;
+}
+
+
+/* copy right */
+.copyright-container{
+    color: #ffffff;
+    text-align: center;
+    margin: 6em auto 1em auto;
+    font-size: 15px;
+}
 
 }
 
