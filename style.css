@@ -125,19 +125,30 @@ li a {
     border-radius: 50% ;
     margin: 10em auto 0 auto;
 }
+.intro-grid-big-screen-view {
+    border: 2px solid rgb(17, 199, 17);
+    width: 450px;
+    height: 330px;
+    float: left;
+    margin-left: 3em;
+    padding: 1em;
+    display: none;
+}
+
 .intro-bg {
     padding: 1em;
 }
 .intro-bg p {
+    border: 2px solid #fff;
     line-height: 1.3em;
     text-align: center;
-    font-size: 8vw;
+    font-size: 1.5rem;
     /*font-family: 'DotGothic16', sans-serif;*/
     font-family: 'Barlow', sans-serif;
     color: #ffffff;
-    margin-top: 1em;
+    margin: 2em auto 0 auto;
+    width: 80%;
 }
-
 
 /***** About for small devices *****/
 .about {
@@ -191,38 +202,47 @@ span {
 
 
 .updateContainer {
-    text-align: center;
-    padding: 1em;
+    padding: 2.5em 1em;
+    background:#288d4c;
+    width: 90vw;
+    height: 100%;
+    margin: 3em auto 0 auto;
+    border-radius: 10px;
 }
-.updateContainer .updateHeader {
+#update-zone {
+    text-align: center;
+}
+.update-container h1 {
     color: #ffffff;
     background-color: #000000;
     display: inline-block;
     font-size: 1.5em;
-    padding: 0 1.3em;
+    padding: .3em 1.5em;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid #000000;
-    margin-top: 2.5em;
+    border-bottom: 2px solid #fff;
     border-radius: 50px;
     font-style: italic;
+    margin-top: 6em;
 }
 .updateContainer .updateText {
     color: #ffffff;
-   /* padding: 3.5em 1.2em 2em 1.2em;*/
-    font-size: 23px;
+    /*padding-bottom: 2.5em;*/
+    font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7em;
+    text-align: center;
+    margin: -1em auto 3em auto;
 }
 .updateContainer a {
-    padding: .6em 1.5em;
+    font-size: 1em;
+    padding: .7em 1em;
     text-align: center;
     text-decoration: none;
-    background: #288d4c;
     color: #ffffff;
-    font-weight: bold;
-    border-radius: 7px;
+    font-weight: lighter;
+    border-radius: 5px;
     border: none;
-    background-image: linear-gradient(to right, #288d4c, #000000);
+    background: rgb(0, 0, 0);
 }
 .updateContainer a:hover {
     background: #288d4c;
@@ -232,6 +252,7 @@ span {
 
 
 /***** skills *****/
+
 
 .skills-container-ipad {
     border-radius: 20px;
@@ -248,22 +269,18 @@ span {
 #skills-zone {
     text-align: center;
 }
-.recentProjectsContainer {
-    margin-top: 10em;
-    text-align: center;
-    display: inline-block;
-}
-.recentProjectsContainer p {
+.skills-header h1 {
     color: #ffffff;
     background-color: #000000;
     display: inline-block;
     font-size: 1.5em;
-    padding: 0 1.3em;
+    padding: .3em 1.5em;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid #000000;
+    border-bottom: 2px solid #fff;
     border-radius: 50px;
     font-style: italic;
-}
+    margin-top: 7em;
+    }
 
 /***** skills *****/
 
@@ -357,6 +374,20 @@ span {
 
 
 /***** project *****/
+
+.project-header h1 {
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: .3em 1.5em;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #fff;
+    border-radius: 50px;
+    font-style: italic;
+    margin-top: 3em;
+}
+
 .project-header {
     display: flex;
     justify-content: center;
@@ -781,7 +812,7 @@ nav a {
     border: 2px solid #fff;
     line-height: 1.3em;
     text-align: center;
-    font-size:7vw;
+    font-size: 1.5rem;
     /*font-family: 'DotGothic16', sans-serif;*/
     font-family: 'Barlow', sans-serif;
     color: #ffffff;
