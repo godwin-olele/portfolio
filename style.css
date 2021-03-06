@@ -115,6 +115,43 @@ li a {
     float: right;
 }
 
+
+.intro-container-for-small-devices {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.intro-bg {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid #fff;
+    margin-top: 7em;
+}
+.myImage-for-small-device {
+    border: 2px solid #fff;
+    width: 7em;
+    height: 7em;
+    background: url('./image/IMG-20210119-WA0009.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50% ;
+    margin: 0 auto;
+}
+.intro-bg p {
+    border: 2px solid #fff;
+    width: 12em;
+    height: 5em;
+    line-height: 1.3em;
+    text-align: center;
+    font-size: 1.5rem;
+    /*font-family: 'DotGothic16', sans-serif;*/
+    font-family: 'Barlow', sans-serif;
+    color: #ffffff;
+    margin: 2em auto 0 auto;
+}
+
+/*
 .myImage {
     width: 120px;
     height: 120px;
@@ -123,7 +160,7 @@ li a {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50% ;
-    margin: 10em auto 0 auto;
+    margin: 8em auto 0 auto;
 }
 .intro-grid-big-screen-view {
     border: 2px solid rgb(17, 199, 17);
@@ -133,23 +170,26 @@ li a {
     margin-left: 3em;
     padding: 1em;
     display: none;
+}*/
+.hire-me {
+    display: none;
 }
 
+/*
 .intro-bg {
     padding: 1em;
 }
 .intro-bg p {
-    border: 2px solid #fff;
     line-height: 1.3em;
     text-align: center;
-    font-size: 1.5rem;
-    /*font-family: 'DotGothic16', sans-serif;*/
+    font-size: 2rem;
+    /*font-family: 'DotGothic16', sans-serif;*
     font-family: 'Barlow', sans-serif;
     color: #ffffff;
-    margin: 2em auto 0 auto;
-    width: 80%;
+    margin: 1em auto 0 auto;
+    width: 85%;
 }
-
+*/
 /***** About for small devices *****/
 .about {
     border: 2px dotted rgb(17, 199, 17);
@@ -795,31 +835,90 @@ nav a {
 
 
 
+/*
 .myImage {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background: url('./image/new\ img\ 1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50% ;
-    margin: 15em auto 0 auto;
+    /*margin: 8em auto 0 auto;*
+    float: left;
+}
+.intro-grid-big-screen-view {
+    border: 2px solid rgb(17, 199, 17);
+    width: 450px;
+    height: 330px;
+    float: left;
+    /*margin-left: 3em;*
+    padding: 1em;
+    display: none;
+}
+.hire-me {
+    display: none;
 }
 .intro-bg {
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .intro-bg p {
     border: 2px solid #fff;
     line-height: 1.3em;
     text-align: center;
     font-size: 1.5rem;
-    /*font-family: 'DotGothic16', sans-serif;*/
+    /*font-family: 'DotGothic16', sans-serif;*
     font-family: 'Barlow', sans-serif;
     color: #ffffff;
-    margin: 2em auto 0 auto;
-    width: 80%;
+    /*margin: 2em auto 0 auto;*
+    width: 50%;
+    float: left;
 }
 
+*/
+
+
+
+.intro-container-for-small-devices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .intro-bg {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     border: 2px solid #fff;
+     margin-top: 9em;
+     padding: 2em 5em;
+ }
+ .myImage-for-small-device {
+     border: 2px solid #fff;
+     width: 9em;
+     height: 9em;
+     background: url('./image/IMG-20210119-WA0009.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 50% ;
+     margin: 0 ;
+ }
+ .intro-bg p {
+     border: 2px solid #fff;
+     width: 14em;
+     height: 100%;
+     line-height: 1.3em;
+     text-align: center;
+     font-size: 1.5rem;
+     /*font-family: 'DotGothic16', sans-serif;*/
+     font-family: 'Barlow', sans-serif;
+     color: #ffffff;
+     margin-left: -3.5em;
+     margin-top: -.1em;
+ }
+ 
 
 .updateContainer {
     padding: 5em 2em 3em 2em;
