@@ -135,7 +135,7 @@ li a {
 .myImage-for-small-device {
     width: 7em;
     height: 7em;
-    background: url('./image/IMG-20210119-WA0009.jpg');
+    background: url('./image/my\ image.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -909,7 +909,7 @@ nav a {
  .myImage-for-small-device {
      width: 10em;
      height: 10em;
-     background: url('./image/IMG-20210119-WA0009.jpg');
+     background: url('./image/my\ image.webp');
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -1632,7 +1632,7 @@ margin-top: 7em;
     width: 330px;
     height: 330px;
     float: left;
-    background: url('./image/IMG-20210119-WA0009.jpg');
+    background: url('./image/my\ image.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
