@@ -526,7 +526,7 @@ span {
     text-align: center;
 }
 .item-1 .parallex-image {
-    background: url('./image/Popular\ canadian\ cities\ image.png');
+    background: url('./image/Popular\ canadian\ cities\ image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -561,7 +561,7 @@ span {
     text-align: center;
 }
 .item-2 .random-quote-generator-image {
-    background: url('./image/Random\ Quote\ Generator\ image.png');
+    background: url('./image/Random\ Quote\ Generator\ image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -596,7 +596,7 @@ span {
     text-align: center;
 }
 .item-3 .survey-form-image {
-    background: url('./image/survey\ form.png');
+    background: url('./image/survey\ form.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -630,7 +630,7 @@ span {
     text-align: center;
 }
 .item-4 .hex-color-changer-image {
-    background: url('./image/Hex\ Change\ Background\ Color.png');
+    background: url('./image/Hex\ Change\ Background\ Color.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -667,7 +667,7 @@ span {
     text-align: center;
 }
 .item-5 .tribute-page-image {
-    background: url('./image/Michael\ jackson\ _\ Tribute\ page.png');
+    background: url('./image/Michael\ jackson\ _\ Tribute\ page.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -703,7 +703,7 @@ span {
     text-align: center;
 }
 .item-6 .background-color-changer-image {
-    background: url('./image/Backround\ Color\ Changer.png');
+    background: url('./image/Backround\ Color\ Changer.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -739,7 +739,7 @@ span {
     text-align: center;
 }
 .item-7 .animal-gallery-image {
-    background: url('./image/animal\ gallery.png');
+    background: url('./image/animal\ gallery.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -774,7 +774,7 @@ span {
     padding: 0;
 }
 .item-8 .customer-data-log-form-image {
-    background: url('./image/mama-tega-img.JPG');
+    background: url('./image/mama-tega-img\ \(1\).jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -892,54 +892,6 @@ nav a {
     font-weight: bold;
     border-bottom: 2px dotted green;
 }
-
-
-
-/*
-.myImage {
-    width: 120px;
-    height: 120px;
-    background: url('./image/new\ img\ 1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50% ;
-    /*margin: 8em auto 0 auto;*
-    float: left;
-}
-.intro-grid-big-screen-view {
-    border: 2px solid rgb(17, 199, 17);
-    width: 450px;
-    height: 330px;
-    float: left;
-    /*margin-left: 3em;*
-    padding: 1em;
-    display: none;
-}
-.hire-me {
-    display: none;
-}
-.intro-bg {
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.intro-bg p {
-    border: 2px solid #fff;
-    line-height: 1.3em;
-    text-align: center;
-    font-size: 1.5rem;
-    /*font-family: 'DotGothic16', sans-serif;*
-    font-family: 'Barlow', sans-serif;
-    color: #ffffff;
-    /*margin: 2em auto 0 auto;*
-    width: 50%;
-    float: left;
-}
-
-*/
-
 
 
 .intro-container-for-small-devices {
@@ -1176,7 +1128,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-1 .parallex-image {
-    background: url('./image/Popular\ canadian\ cities\ image.png');
+    background: url('./image/Popular\ canadian\ cities\ image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1213,7 +1165,7 @@ margin-top: 7em;
 
 }
 .item-2 .random-quote-generator-image {
-    background: url('./image/Random\ Quote\ Generator\ image.png');
+    background: url('./image/Random\ Quote\ Generator\ image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1244,7 +1196,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-3 .survey-form-image {
-    background: url('./image/survey\ form.png');
+    background: url('./image/survey\ form.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1277,7 +1229,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-4 .hex-color-changer-image {
-    background: url('./image/Hex\ Change\ Background\ Color.png');
+    background: url('./image/Hex\ Change\ Background\ Color.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1313,7 +1265,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-5 .tribute-page-image {
-    background: url('./image/Michael\ jackson\ _\ Tribute\ page.png');
+    background: url('./image/Michael\ jackson\ _\ Tribute\ page.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1349,7 +1301,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-6 .background-color-changer-image {
-    background: url('./image/Backround\ Color\ Changer.png');
+    background: url('./image/Backround\ Color\ Changer.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1385,7 +1337,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-7 .animal-gallery-image {
-    background: url('./image/animal\ gallery.png');
+    background: url('./image/animal\ gallery.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1419,7 +1371,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-8 .customer-data-log-form-image {
-    background: url('./image/mama-tega-img.JPG');
+    background: url('./image/mama-tega-img\ \(1\).jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1869,7 +1821,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-2 .random-quote-generator-image {
-    background: url('./image/Random\ Quote\ Generator\ image.png');
+    background: url('./image/Random\ Quote\ Generator\ image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1906,7 +1858,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-3 .survey-form-image {
-    background: url('./image/survey\ form.png');
+    background: url('./image/survey\ form.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1943,7 +1895,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-4 .hex-color-changer-image {
-    background: url('./image/Hex\ Change\ Background\ Color.png');
+    background: url('./image/Hex\ Change\ Background\ Color.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1982,7 +1934,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-5 .tribute-page-image {
-    background: url('./image/Michael\ jackson\ _\ Tribute\ page.png');
+    background: url('./image/Michael\ jackson\ _\ Tribute\ page.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2020,7 +1972,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-6 .background-color-changer-image {
-    background: url('./image/Backround\ Color\ Changer.png');
+    background: url('./image/Backround\ Color\ Changer.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2059,7 +2011,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-7 .animal-gallery-image {
-    background: url('./image/animal\ gallery.png');
+    background: url('./image/animal\ gallery.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2096,7 +2048,7 @@ margin-top: 7em;
     color: #ffffff;
 }
 .item-8 .customer-data-log-form-image {
-    background: url('./image/mama-tega-img.JPG');
+    background: url('./image/mama-tega-img\ \(1\).jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
