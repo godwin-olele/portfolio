@@ -351,6 +351,15 @@ li a {
     height: 100%;
     margin: 0 auto;
     border-radius: 33px;
+    /*padding: 0 .5em;*/
+}
+.overlay-2 {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.80);
+    border-radius: 33px;
     padding: 0 .5em;
 }
 
@@ -384,20 +393,23 @@ li a {
 
 /********** skills names **********/
 
-.html, .css, .javascript, .jquery , .firebase{
+.html, .css, .javascript, .jquery , .firebase , .github-text{
     color: #ffffff;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 
 /********** skils grid line 2 **********/
 
 .grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    display: flex;
     text-align: center;
     margin-top: 1em;
+    justify-content: space-between;
 }
 
 /********** skils grid line 1 **********/
@@ -1458,7 +1470,11 @@ margin-top: 7em;
     font-weight: lighter;
     border-radius: 5px;
     border: none;
-    background: rgb(0, 0, 0);
+    background: rgb(32, 32, 32);
+}
+.updateContainer a:hover {
+    background:#000000;
+    transition: all .5s;
 }
 
     body {
@@ -1540,7 +1556,7 @@ margin-top: 7em;
 }
 
 .header-grid-container {
-    border: 2px solid rgb(17, 199, 17);
+    border: 2px solid #288d4c;
     border-right: none;
     border-top: none;
     width: 722px;
@@ -1567,11 +1583,13 @@ margin-top: 7em;
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom-right-radius: 50px;
-    border: 2px solid rgb(17, 199, 17);
+    border: 2px solid #288d4c;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 .intro-grid-big-screen-view {
-    border: 2px solid rgb(17, 199, 17);
+    border: 2px solid /*rgb(17, 199, 17)*/#288d4c;
     width: 450px;
     height: 330px;
     float: left;
