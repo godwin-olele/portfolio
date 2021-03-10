@@ -119,9 +119,11 @@ li a {
     float: right;
 }
 
+
 .intro-bg .intro-for-ipad {
     display: none;
 }
+
 .intro-container-for-small-devices {
    display: flex;
    justify-content: center;
@@ -2026,4 +2028,3 @@ margin-top: 7em;
 }
 
 }
-
