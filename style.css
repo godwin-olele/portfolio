@@ -393,7 +393,7 @@ li a {
 
 /********** skills names **********/
 
-.html, .css, .javascript, .jquery , .firebase , .github-text{
+.html, .css, .javascript, .jquery , .firebase , .github-name{
     color: #ffffff;
     font-size: 15px;
     font-family: sans-serif;
@@ -1586,6 +1586,8 @@ margin-top: 7em;
     border: 2px solid #288d4c;
     border-right: 2px solid #000;
     border-bottom: 2px solid #000;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .intro-grid-big-screen-view {
